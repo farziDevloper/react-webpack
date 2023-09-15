@@ -1,15 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import { callApiUsingAxios } from './Request/Request';
+import { useEffect } from 'react';
 
 function App() {
+   const getData  = async() => {
+let id = 1
+     let response = await callApiUsingAxios('posts' ,'DELETE',id, true, true);
+     console.log('response >>>>>' , response);
+   } 
+
+   useEffect(()=> {
+        getData();
+   },[])
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-     
+        <h1>Hello World</h1> 
       </header>
     </div>
   );
