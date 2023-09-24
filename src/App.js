@@ -15,9 +15,9 @@ let id = 1
 
   return (
     <div className="App">
-      <header className="App-header">
+ 
         <h1>create react app</h1> 
-      </header>
+
     </div>
   );
 }
