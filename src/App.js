@@ -1,4 +1,5 @@
 import './App.css';
+import Pending from './Pending';
 import { callApiUsingAxios } from './Request/Request';
 import { useEffect } from 'react';
 
@@ -10,15 +11,15 @@ let id = 1
    } 
 
    useEffect(()=> {
-        getData();
+        // getData();
    },[])
 
   return (
-    <div className="App">
- 
-        <h1>create react app</h1> 
+<>
+      <Pending/>
+</>
+        
 
-    </div>
   );
 }
 
