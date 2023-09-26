@@ -7,7 +7,7 @@ const Pending = () => {
             justifyContent: 'center', alignItems: 'center' ,display: 'flex',padding:'0px 20px'
         },
         container:{maxWidth:'380px' , justifyContent:'center', alignItems:'center', display:'flex',flexDirection:'column'},
-        img:{ height:'92px', width:'92px', marginTop:'179px', transform: 'rotate(180deg)'},
+        img:{ height:'92px', width:'92px', marginTop:'179px'},
         progressFont:{fontWeight:'700',fontSize:'32px', marginTop:'-10px'},
         titleText:{textAlign:'center', marginTop:'-18px' ,color:'#717171' }
 
