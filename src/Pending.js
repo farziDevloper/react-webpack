@@ -21,7 +21,7 @@ const Pending = () => {
       <p style={styles.progressFont} >You’re in progress</p>
 
                 <p style={styles.titleText}>
-                Your iMoneyPay account activation is under process. We are trying to verify your account. Kindly wait up to 48 working hours.
+                Your iMoneyPay account activation is under process.We are trying to verify your account. Kindly wait up to 48 working hours.
                 </p>
     </div>
  </div>
