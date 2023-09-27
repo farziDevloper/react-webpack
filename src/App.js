@@ -1,7 +1,8 @@
-import './App.css';
+
 import Pending from './Pending';
 import { callApiUsingAxios } from './Request/Request';
 import { useEffect } from 'react';
+import { Router } from './Routes';
 
 function App() {
    const getData  = async() => {
@@ -16,7 +17,7 @@ let id = 1
 
   return (
 <>
-      <Pending/>
+    <Router />
 </>
         
 
